@@ -1,5 +1,5 @@
 # Blot-Art
-art forms using blom
+art forms using blot
 
 # Ganesha blot
 This blot draws Lord Ganesha using the blot library by HackClub. 
