@@ -17,6 +17,10 @@ const face = bt.catmullRom([[30,394],[53,372],[86,387.5],[103,370.5],[87.5,336],
 const eyebrow = bt.catmullRom([[97.5,244.3],[126,266],[141,272],[161.3,261.2],[175,244]])
 
 const tooth = bt.catmullRom([[95.7,186],[83,165],[62,154],[98.6,154.2],[116,178.5]])
+// 160,433, r=R
+const r = 20
+
+const bindi = bt.catmullRom([[160-r,433],[160,433+r],[160+r,433],[160,433-r],[160-r,433]]);
 
 // drawLines([curve])
 drawLines([uumatra])
@@ -24,3 +28,4 @@ drawLines([chand])
 drawLines([face])
 drawLines([eyebrow])
 drawLines([tooth])
+drawLines([bindi])
