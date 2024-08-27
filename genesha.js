@@ -1,3 +1,10 @@
+
+/*
+@title: ShreeGanesha
+@author: Suryaansh Chawla
+@snapshot: ShreeGanesha
+*/
+
 const width = 500;
 const height = 500;
 
